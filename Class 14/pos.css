@@ -1,0 +1,17 @@
+.main{
+    width: 80%;
+    height: 500px;
+    background-color: rgb(21, 107, 0);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    position: relative;
+    
+}
+.box{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: rgb(233, 21, 21);
+    top: 35%;
+    left: 45%;
+}

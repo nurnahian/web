@@ -1,0 +1,38 @@
+body{
+    text-align: justify;
+}
+.table.tabel-us tr:hover{
+    background-color: aqua;
+    opacity: 50%;
+    transition: .5s;
+}
+
+.radio--bt label{
+    display: inline-block;
+    background-color: rgb(48, 144, 255);
+    padding: 15px;
+    border-radius: 50px;
+    width: 120px;
+}
+.radio--bt label::before{
+    content: "\f204";
+    font-family: "FontAwesome";
+    font-size: 20px;
+    color: aliceblue;
+    padding-right: 10px;
+}
+.radio--bt input[type="radio"]:checked + label{
+    background-color: rgb(15, 235, 169);
+    
+}
+.radio--bt input[type="radio"]:checked + label::before{
+    content: "\f205"; 
+}
+.radio--bt input[type="radio"]{
+    display: none;
+    
+}
+
+.ms-n5 {
+    margin-left: -40px;
+}

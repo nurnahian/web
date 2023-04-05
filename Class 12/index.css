@@ -1,0 +1,97 @@
+/* .ficon {
+    color: #1778f2;
+    font-size: 50px;
+} */
+
+/* C866B2)
+body {
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  display: grid;
+  place-items: center;
+} */
+
+.btn {
+  text-decoration: none;
+  border: 2px solid #764abc;
+  color: #764abc;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #764abc;
+  transition: all 1s;
+  z-index: -1;
+  transform: translateX(-100%);
+}
+
+.btn:hover::before {
+  transform: translateX(0);
+}
+
+.btn:hover {
+  color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cta-1 {
+  position: relative;
+  padding: 12px 24px;
+  border: none;
+  font-size: 1.6rem;
+  background-color: #E0E7FF;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cta-1:active,
+.cta-1:focus {
+  outline: none;
+}
+
+.cta-1 span {
+  position: relative;
+  color: #4F46E5;
+  transition: all 0.6s ease;
+}
+
+.cta-1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #4F46E5;
+  transform: scaleX(0);
+  transform-origin: 0;
+  transition: transform 0.6s ease;
+}
+
+.cta-1:hover::before {
+  transform-origin: 1;
+  transform: scaleX(1);
+}
+
+.cta-1:hover span {
+  color: #E0E7FF;
+}

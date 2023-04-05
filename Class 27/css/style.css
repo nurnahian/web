@@ -1,0 +1,22 @@
+.go--top{
+    width: 50px;
+    height: 35px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+.go--abc{
+    width: 100px;
+    height: 35px;
+    position: fixed;
+    bottom: 100px;
+    left: 10px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: red;
+    font-weight: 400;
+}

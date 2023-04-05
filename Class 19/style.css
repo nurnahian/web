@@ -1,0 +1,8 @@
+body{
+    text-align: justify;
+}
+.table.tabel-us tr:hover{
+    background-color: aqua;
+    opacity: 50%;
+    transition: .5s;
+}

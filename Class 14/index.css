@@ -1,0 +1,22 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}
+
+.box1{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    position: fixed;
+    bottom: 2%;
+    right: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1>i{
+    font-size: 12px;
+}
+

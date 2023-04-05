@@ -1,0 +1,19 @@
+h1,h2,h3,h4,h5,h6{
+    color: blueviolet;
+    font-size: 24px;
+    background-color: red ;
+}
+.demo1{
+    background-color: antiquewhite;
+}
+
+#demo-id{
+    background-color: blue;
+}
+.box{
+    width: 500px;
+    background-color: bisque;
+    margin: 10px;
+    padding: 15px;
+    border: 15px solid black;
+}
